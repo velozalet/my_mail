@@ -9,7 +9,7 @@ class cl_Mail extends cl_connectDB implements cl_Interf_Mail {  //
 	static $from_name= "Jonh Smith"; // E-mail отправителя(един для всего почтового сервера)
 	private $_type= "text/html"; // тип содержимого E-mail(Content-type)
 	private $_encoding= "utf-8"; // тип кодировки E-mail
-	//private $_notify= FALSE; // для проверки подтверждения получения письма(по надобности)
+	//private $_notify= FALSE; // для проверки подтверждения получения письма(по надобности) ff
 
 
 // МЕТОДЫ для работы почтовым порталом:
